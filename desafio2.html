@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío 2</title>
+    <link rel="shortcut icon" href="assets/img/js.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style2.css">
+</head>
+
+<body>
+
+    <div class="texto">
+        <p>Puedes llevar hasta 10 stickers en total</p>
+    </div>
+
+    <section class="stickers">
+        <div class="card">
+            <img src="assets/img/sticker1.jpg" alt="">
+            <div class="options">
+                <input type="number" placeholder="Cantidad" name="quantity" min="0" max="10" id="cantidad1">
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="assets/img/sticker2.jpg" alt="">
+            <div class="options">
+                <input type="number" placeholder="Cantidad" name="quantity" min="0" max="10" id="cantidad2">
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="assets/img/sticker3.jpg" alt="">
+            <div class="options">
+                <input type="number" placeholder="Cantidad" name="quantity" min="0" max="10" id="cantidad3">
+            </div>
+        </div>
+    </section>
+
+    <div class="texto">
+        <p id="mensaje"></p>
+    </div>
+
+    <div class="btn">
+        <button id="verificar">Verificar</button>
+    </div>
+
+
+    <script src="assets/js/app2.js"></script>
+</body>
+
+</html>

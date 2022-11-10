@@ -1,0 +1,13 @@
+.container {
+    margin-top: 50px;
+}
+
+.opciones {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.texto {
+   text-align: center;
+}
